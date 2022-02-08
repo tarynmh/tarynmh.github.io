@@ -21,3 +21,32 @@
   .navL a:hover {
     background-color: rgb(108, 114, 104);
   }
+
+  #challenge4{
+    font-family: Arial;
+  }
+  #results {
+    color:rgb(138, 138, 138);
+    font-size: 14px;
+  }
+
+  .synopsis {
+    color:rgb(32, 32, 32);
+  }
+
+
+  /* NOTE: I decided to make rows/columns with flexbox intead of tables, because I know we talked about tables being bad for accessibility in lecture */
+  .row {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  .searchEntry {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
