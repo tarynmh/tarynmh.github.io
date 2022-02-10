@@ -3,207 +3,250 @@
     <head>
         <meta charset="utf-8">
         <title>Week 4 In-class</title>
+        <!-- referenced https://www.w3schools.com/html/html_favicon.asp -->
+        <link rel="icon" type="image/x-icon" href="https://static.wikia.nocookie.net/stardewvalley/images/0/05/Cat.png/revision/latest/top-crop/width/360/height/360?cb=20160322102216">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="css/stylesheet.css">
     </head>
     <body>
+        
         <!-- CHALLENGE 1 -->
         <div>
             <ul class="navUL">
                 <li class="navL"><a href="index.html">Home</a></li>
                 <li class="navL"><a href="assignment1.html">Assignment 1</a></li>
                 <li class="navL"><a href="assignment3.html">Assignment 3 — Encylopedia </a></li>
-                <li class="navL"><a href="#">Assignment 4 — HTML Challenges</a></li>
-              </ul>
+                <li class="navL"><a href="assignment4.html">Assignment 4 — HTML Challenges</a></li>
+                <li class="navL"><a href="#">Assignment 5 — HTML Challenges Redux</a></li>
+            </ul>
+        </div>
+        <div class="container" style="margin-top: 3%">
+            <div>
+                <h5>Challenge 1 Revisions:</h5>
+                <p>I chose not to revise my first challenge, because I feel as though the navigation bar already does its job :)</p>
+                <p>The navigation bar stays on each page, and it's easy to use due to its horizontal structure.</p>
+            </div>
+
+
+            <!-- CHALLENGE 2 -->
+
+            <div>
+                <h2>Challenge 2: Build a Chessboard</h2>
+                <table style=" border: 5px solid black;">
+                    <tbody>
+                    <tr>
+                    <td style="height: 50px; width: 50px; text-align: center; color: black;">&#x265C;</td>
+                    <td style="height: 50px; width: 50px; background-color: black; text-align: center; color: gray;">&#x265E;</td>
+                    <td style="height: 50px; width: 50px; text-align: center; color: black;">&#x265D;</td>
+                    <td style="height: 50px; width: 50px; background-color: black; text-align: center; color: gray;">&#x265B;</td>
+                    <td style="height: 50px; width: 50px; text-align: center; color: black;">&#x265A;</td>
+                    <td style="height: 50px; width: 50px; background-color: black; text-align: center; color: gray;">&#x265D;</td>
+                    <td style="height: 50px; width: 50px; text-align: center; color: black;">&#x265E;</td>
+                    <td style="height: 50px; width: 50px; background-color: black; text-align: center; color: gray;">&#x265C;</td>
+                    </tr>
+                    <tr>
+                    <td style="height: 50px; width: 50px; background-color: black; text-align: center; color: gray;">&#x265F;</td>
+                    <td style="height: 50px; width: 50px; text-align: center; color: black;">&#x265F;</td>
+                    <td style="height: 50px; width: 50px; background-color: black; text-align: center; color: gray;">&#x265F;</td>
+                    <td style="height: 50px; width: 50px; text-align: center; color: black;">&#x265F;</td>
+                    <td style="height: 50px; width: 50px; background-color: black; text-align: center; color: gray;">&#x265F;</td>
+                    <td style="height: 50px; width: 50px; text-align: center; color: black;">&#x265F;</td>
+                    <td style="height: 50px; width: 50px; background-color: black; text-align: center; color: gray;">&#x265F;</td>
+                    <td style="height: 50px; width: 50px; text-align: center; color: black;">&#x265F;</td>
+                    </tr>
+                    <tr>
+                    <td style="height: 50px; width: 50px;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
+                    </tr>
+                    <tr>
+                    <td style=" height: 50px; width: 50px; background-color: black;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px;">&nbsp;</td>
+                    <td style="height: 50px; background-color: black;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px;">&nbsp;</td>
+                    </tr>
+                    <tr>
+                    <td style="height: 50px; width: 50px;">&nbsp;</td>
+                    <td style=" height: 50px; width: 50px; background-color: black;">&nbsp;</td>
+                    <td style= " height: 50px; width: 50px;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px; background-color: black; text-align: center">&#128008;</td>
+                    <td style="height: 50px; width: 50px;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px; background-color: black;"> &nbsp;</td>
+                    </tr>
+                    <tr>
+                    <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
+                    <td style ="height: 50px; width: 50px;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
+                    <td style="height: 50px; width: 50px;">&nbsp;</td>
+                    </tr>
+                    <tr>
+                    <td style="height: 50px; width: 50px; text-align: center;">&#x2659;</td>
+                    <td style="height: 50px; width: 50px; background-color: black; text-align: center; color:white;">&#x2659;</td>
+                    <td style= "height: 50px; width: 50px; text-align: center;">&#x2659;</td>
+                    <td style="height: 50px; width: 50px; background-color: black; text-align: center; color:white;">&#x2659;</td>
+                    <td style=" height: 50px; width: 50px; text-align: center;">&#x2659;</td>
+                    <td style="height: 50px; width: 50px; background-color: black; text-align: center; color:white;">&#x2659;</td>
+                    <td style="height: 50px; width: 50px; text-align: center;">&#x2659;</td>
+                    <td style="height: 50px; width: 50px; background-color: black; text-align: center; color:white;">&#x2659;</td>
+                    </tr>
+                    <tr>
+                    <td style="height: 50px; width: 50px; background-color: black; text-align: center; color: white;">&#x2656;</td>
+                    <td style="height: 50px; width: 50px; text-align: center;">&#x2658;</td>
+                    <td style="height: 50px; width: 50px; background-color: black; text-align: center; color:white;">&#x2657;</td>
+                    <td style="height: 50px; width: 50px; text-align: center;">&#x2655;</td>
+                    <td style="height: 50px; width: 50px; background-color: black; text-align: center; color: white;">&#x2654;</td>
+                    <td style="height: 50px; width: 50px; text-align: center;">&#x2657;</td>
+                    <td style="height: 50px; width: 50px; background-color: black; text-align: center; color:white;">&#x2658;</td>
+                    <td style="height: 50px; width: 50px; text-align: center;">&#x2656;</td>
+                    </tr>
+                    </tbody>
+                    </table>
+                    <!-- DivTable.com -->
+            </div>
         </div>
 
-        <!-- CHALLENGE 2 -->
+        <div class="container">
+            <!-- CHALLENGE 3 -->
+            <div style="margin-top: 5%;">
+                <h2>Challenge 3: Create a Form</h2>
+                <form>
+                    <div>
+                        <label for="catName">Enter a good name for a cat:</label>
+                        <br>
+                        <input type="text" id="catName" name="catName"><br><br>
+                    </div>
 
-        <div>
-            <h2>Challenge 2: Build a Chessboard</h2>
-            <table style=" border: 5px solid black;">
-                <tbody>
-                <tr>
-                <td style="height: 50px; width: 50px; text-align: center; color: black;">&#x265C;</td>
-                <td style="height: 50px; width: 50px; background-color: black; text-align: center; color: gray;">&#x265E;</td>
-                <td style="height: 50px; width: 50px; text-align: center; color: black;">&#x265D;</td>
-                <td style="height: 50px; width: 50px; background-color: black; text-align: center; color: gray;">&#x265B;</td>
-                <td style="height: 50px; width: 50px; text-align: center; color: black;">&#x265A;</td>
-                <td style="height: 50px; width: 50px; background-color: black; text-align: center; color: gray;">&#x265D;</td>
-                <td style="height: 50px; width: 50px; text-align: center; color: black;">&#x265E;</td>
-                <td style="height: 50px; width: 50px; background-color: black; text-align: center; color: gray;">&#x265C;</td>
-                </tr>
-                <tr>
-                <td style="height: 50px; width: 50px; background-color: black; text-align: center; color: gray;">&#x265F;</td>
-                <td style="height: 50px; width: 50px; text-align: center; color: black;">&#x265F;</td>
-                <td style="height: 50px; width: 50px; background-color: black; text-align: center; color: gray;">&#x265F;</td>
-                <td style="height: 50px; width: 50px; text-align: center; color: black;">&#x265F;</td>
-                <td style="height: 50px; width: 50px; background-color: black; text-align: center; color: gray;">&#x265F;</td>
-                <td style="height: 50px; width: 50px; text-align: center; color: black;">&#x265F;</td>
-                <td style="height: 50px; width: 50px; background-color: black; text-align: center; color: gray;">&#x265F;</td>
-                <td style="height: 50px; width: 50px; text-align: center; color: black;">&#x265F;</td>
-                </tr>
-                <tr>
-                <td style="height: 50px; width: 50px;">&nbsp;</td>
-                <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
-                <td style="height: 50px; width: 50px;">&nbsp;</td>
-                <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
-                <td style="height: 50px; width: 50px;">&nbsp;</td>
-                <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
-                <td style="height: 50px; width: 50px;">&nbsp;</td>
-                <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
-                </tr>
-                <tr>
-                <td style=" height: 50px; width: 50px; background-color: black;">&nbsp;</td>
-                <td style="height: 50px; width: 50px;">&nbsp;</td>
-                <td style="height: 50px; background-color: black;">&nbsp;</td>
-                <td style="height: 50px; width: 50px;">&nbsp;</td>
-                <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
-                <td style="height: 50px; width: 50px;">&nbsp;</td>
-                <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
-                <td style="height: 50px; width: 50px;">&nbsp;</td>
-                </tr>
-                <tr>
-                <td style="height: 50px; width: 50px;">&nbsp;</td>
-                <td style=" height: 50px; width: 50px; background-color: black;">&nbsp;</td>
-                <td style= " height: 50px; width: 50px;">&nbsp;</td>
-                <td style="height: 50px; width: 50px; background-color: black; text-align: center">&#128008;</td>
-                <td style="height: 50px; width: 50px;">&nbsp;</td>
-                <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
-                <td style="height: 50px; width: 50px;">&nbsp;</td>
-                <td style="height: 50px; width: 50px; background-color: black;"> &nbsp;</td>
-                </tr>
-                <tr>
-                <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
-                <td style="height: 50px; width: 50px;">&nbsp;</td>
-                <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
-                <td style ="height: 50px; width: 50px;">&nbsp;</td>
-                <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
-                <td style="height: 50px; width: 50px;">&nbsp;</td>
-                <td style="height: 50px; width: 50px; background-color: black;">&nbsp;</td>
-                <td style="height: 50px; width: 50px;">&nbsp;</td>
-                </tr>
-                <tr>
-                <td style="height: 50px; width: 50px; text-align: center;">&#x2659;</td>
-                <td style="height: 50px; width: 50px; background-color: black; text-align: center; color:white;">&#x2659;</td>
-                <td style= "height: 50px; width: 50px; text-align: center;">&#x2659;</td>
-                <td style="height: 50px; width: 50px; background-color: black; text-align: center; color:white;">&#x2659;</td>
-                <td style=" height: 50px; width: 50px; text-align: center;">&#x2659;</td>
-                <td style="height: 50px; width: 50px; background-color: black; text-align: center; color:white;">&#x2659;</td>
-                <td style="height: 50px; width: 50px; text-align: center;">&#x2659;</td>
-                <td style="height: 50px; width: 50px; background-color: black; text-align: center; color:white;">&#x2659;</td>
-                </tr>
-                <tr>
-                <td style="height: 50px; width: 50px; background-color: black; text-align: center; color: white;">&#x2656;</td>
-                <td style="height: 50px; width: 50px; text-align: center;">&#x2658;</td>
-                <td style="height: 50px; width: 50px; background-color: black; text-align: center; color:white;">&#x2657;</td>
-                <td style="height: 50px; width: 50px; text-align: center;">&#x2655;</td>
-                <td style="height: 50px; width: 50px; background-color: black; text-align: center; color: white;">&#x2654;</td>
-                <td style="height: 50px; width: 50px; text-align: center;">&#x2657;</td>
-                <td style="height: 50px; width: 50px; background-color: black; text-align: center; color:white;">&#x2658;</td>
-                <td style="height: 50px; width: 50px; text-align: center;">&#x2656;</td>
-                </tr>
-                </tbody>
-                </table>
-                <!-- DivTable.com -->
+                    <div>
+                        <input type="checkbox" id="cat" name="cat" value="Cat">
+                        <label for="cat">I have a cat</label><br>
+                        <input type="checkbox" id="dog" name="dog" value="Dog">
+                        <label for="dog"> I have a dog</label><br>
+                        <input type="checkbox" id="pet" name="pet" value="Pet">
+                        <label for="pet"> I have another pet</label>
+                    </div>
+
+                    <div>
+                        <br>
+                        <label for="faveColor">What's your favorite color?</label>
+                        <input type="color" id="faveColor" name="faveColor">
+                    </div>
+
+                    <div style="margin-bottom: 5%;">
+                        <br>
+                        <button type="submit" class="btn btn-secondary">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+            <div style="margin-bottom: 5%;">
+                <h5>Challenge 3 Revisions:</h5>
+                <p>I chose to make a bootstrap button for my form instead of the normal html button, because it looks a lot cleaner in my opinion.</p>
+                <p>Aside from this change, I chose to keep everything else relatively the same. I enjoy my other inputs!</p>
+            </div>
+
+            <!-- CHALLENGE 4 -->
+            <!-- NOTE: I made a css stylesheet, and I know we haven't went over them in class ... -->
+            <!-- ... but the way I structured my classes would have made it a little redundant for my google search. -->
+            <!-- I already know about stylesheets and the like, so I made some classes and ids in order to style this section. -->
+            <!-- I used in-line styling for challenges 2 and 3, so those are good examples that demonstrate my knowledge! -->
+            <!-- I hope it's alright that I used a stylesheet for this portion. :) Thank you! -->
+            
+            <div id="challenge4">
+                <h2>Challenge 4:  A Google Search Page</h2>
+                <h5 id="results">About 3,400,000,000 results (0.86 seconds)</h5>
+
+                <section class="searchEntry">
+                    <p>https://www.colorado.edu > atlas</p>
+                    <a href="https://www.colorado.edu/atlas/"><h2>ATLAS Institute | University of Colorado Boulder</h2></a>
+                    <p class="synopsis">ATLAS is an interdisciplinary <b>institute</b> for radical creativity and invention. We transform ingenious ideas into reality through research, ...</p>
+        
+                    <div class="row">
+                        <div class="column synopsis"><a href="https://www.colorado.edu/atlas/academics/grad"><h3>Graduate Degrees in Creative ...</h3></a>
+                        <p>Radically interdisciplinary, ATLAS graduate programs nurture ... </p></div>
+                        <div class="column synopsis"><a href="https://www.colorado.edu/atlas/about-atlas"><h3>About</h3></a>
+                        <p>ATLAS is an interdisciplinary institute for radical creativity and ...</p></div>
+                    </div>
+                    <div class="row">
+                        <div class="column synopsis"><a href="https://www.colorado.edu/atlas/academics"><h3>Academics</h3></a>
+                        <p>Granted through the College of Engineering and Applied ... </p></div>
+                        <div class="column synopsis"><a href="https://www.colorado.edu/atlas/academics/undergraduate"><h3>Undergraduate Programs</h3></a>
+                        <p>Awarded through the College of Engineering and Applied ...</p></div>
+                    </div>
+                    <div class="row">
+                        <div class="column synopsis"><a href="https://www.colorado.edu/atlas/faculty"><h3>Faculty</h3></a>
+                        <p>Lecturer, co-chair Board of Advisors + DESIGN, AR/VR ...</p></div>
+                        <div class="column synopsis"><a href="https://www.colorado.edu/atlas/research-creative"><h3>Research + Creative</h3></a>
+                        <p>Check out ATLAS Research Showcase 2020</p></div>
+                    </div>
+                </section>
+
+                <section class="searchEntry">
+                    <p>https://www.colorado.edu > innovate > atlas-institute</p>
+                    <a href="https://www.colorado.edu/innovate/atlas-institute"><h2>ATLAS Institute | Innovation & Entrepreneurship - University of ...</h2></a>
+                    <p class="synopsis">Resource that sponsors diverse interdisciplinary academic and research programs, challenging community members to explore, innovate, create and design well ...</p>
+                </section>
+
+                <section class="searchEntry">
+                    <p>https://www.linkedin.com > school > atlas-cu-boulder</p>
+                    <a href="https://www.linkedin.com/school/atlas-cu-boulder/"><h2>ATLAS Institute at CU Boulder Employees, Location, Alumni</h2></a>
+                    <p class="synopsis">ATLAS is an interdisciplinary institute for radical creativity and invention where ingenious ideas become reality. • ATLAS Institute at CU Boulder. View all open ...</p>
+                </section>
+
+                <section class="searchEntry">
+                    <p>https://www.typemoon.fandom.com > wiki > Atlas</p>
+                    <a href="https://typemoon.fandom.com/wiki/Atlas"><h2>ATLAS | TYPE-MOON Wiki | Fandom</h2></a>
+                    <p class="synopsis">It is an institute focused on the study and development of alchemy, but its members broke off from the mainstream modern practice of alchemy that originated in ...</p>
+                    <a href="https://typemoon.fandom.com/wiki/Atlas#External_Relationships"><h5 class="typeMoon">External Relationships</h5></a> • <a href="https://typemoon.fandom.com/wiki/Atlas#Alchemist_of_Atlas"><h5 class="typeMoon">Alchemist of Atlas</h5></a> • <a href="https://typemoon.fandom.com/wiki/Atlas#Activities"><h5 class="typeMoon">Activites</h5></a> • <a href="https://typemoon.fandom.com/wiki/Atlas#Headquarters"><h5 class="typeMoon">Headquarters</h5></a>
+                </section>
+
+                <section class="searchEntry">
+                    <p>https://www.internationalaffairshouse.org</p>
+                    <a href="https://www.internationalaffairshouse.org"><h2>ATLAS Institute for International Affairs: Home</h2></a>
+                    <p class="synopsis">Atlas Institute for International Affairs - The Harmony of Opposite Tensions. ... Atlas Institute. The World's Leading Open-Access Think-Tank and Publisher ...</p>
+                </section>
+
+            </div>
+
+            <!-- CHALLENGE 5 -->
+            <div>
+                <h2>Challenge 5: Accessibility Statement</h2>
+                <p>One accessibility issue of my chessboard lies in the fact that it may be too small to see the pieces. Those with visual impairments may have trouble seeing the pieces and differentiating them.</p>
+                <p>Given this, I would most likely use different images rather than unicode characters for the pieces, or I would make the board + symbols larger.</p>
+                <p>Moreover, there may be an accessibility issue with the color picker user input. If someone were to use a screenreader, it would be near impossible to properly fill out all of the form.</p>
+                <p>I would remedy this with JavaScript, since it would allow for a user to better navigate the module.</p>
+                <br>
+
+                <h5>Challenge 5 Revisions:</h5>
+                <p>After revising my site, I would also like to mention that there may be issues with all of my links. Since I put them in a flexbox/div and separated into columns, screenreaders may read the information out of order.</p>
+                <p>I'd like to revisit the Google page later and work on a better way to compartmentalize my information.</p>
+            </div>
+
+            <div>
+                <h5 style="margin-top: 5%">New Facets Explored</h5>
+                <p>For this assignment, I explored flexboxes for my Google search page, favicons, and Bootstrap.</p>
+                <p>I learned about favicons from <a href="https://www.w3schools.com/html/html_favicon.asp">this source.</a> </p>
+                <p>I wanted a cute icon for my site, so I found how to do it! I also like Bootstrap's buttons, so I used that as well. :)</p>
+                <p>I've used Bootstrap and flexboxes before, but favicons are new to me. I enjoyed learning about this simple feature; I think it can make a website much more polished!</p>
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         </div>
-
-        <!-- CHALLENGE 3 -->
-        <div>
-            <h2>Challenge 3: Create a Form</h2>
-            <form>
-                <div>
-                    <label for="catName">Enter a good name for a cat:</label>
-                    <br>
-                    <input type="text" id="catName" name="catName"><br><br>
-                </div>
-
-                <div>
-                    <input type="checkbox" id="cat" name="cat" value="Cat">
-                    <label for="cat">I have a cat</label><br>
-                    <input type="checkbox" id="dog" name="dog" value="Dog">
-                    <label for="dog"> I have a dog</label><br>
-                    <input type="checkbox" id="pet" name="pet" value="Pet">
-                    <label for="pet"> I have another pet</label>
-                </div>
-
-                <div>
-                    <br>
-                    <label for="faveColor">What's your favorite color?</label>
-                    <input type="color" id="faveColor" name="faveColor">
-                </div>
-
-                <div>
-                    <br>
-                    <input type="submit">
-                </div>
-            </form>
-        </div>
-
-        <!-- CHALLENGE 4 -->
-        <div id="challenge4">
-            <h2>Challenge 4:  A Google Search Page</h2>
-            <h5 id="results">About 3,400,000,000 results (0.86 seconds)</h5>
-
-            <section class="searchEntry">
-                <p>https://www.colorado.edu > atlas</p>
-                <a href="https://www.colorado.edu/atlas/"><h2>ATLAS Institute | University of Colorado Boulder</h2></a>
-                <p class="synopsis">ATLAS is an interdisciplinary <b>institute</b> for radical creativity and invention. We transform ingenious ideas into reality through research, ...</p>
-      
-                <div class="row">
-                    <div class="column synopsis"><a href="https://www.colorado.edu/atlas/academics/grad"><h3>Graduate Degrees in Creative ...</h3></a>
-                    <p>Radically interdisciplinary, ATLAS graduate programs nurture ... </p></div>
-                    <div class="column synopsis"><a href="https://www.colorado.edu/atlas/about-atlas"><h3>About</h3></a>
-                    <p>ATLAS is an interdisciplinary institute for radical creativity and ...</p></div>
-                </div>
-                <div class="row">
-                    <div class="column synopsis"><a href="https://www.colorado.edu/atlas/academics"><h3>Academics</h3></a>
-                    <p>Granted through the College of Engineering and Applied ... </p></div>
-                    <div class="column synopsis"><a href="https://www.colorado.edu/atlas/academics/undergraduate"><h3>Undergraduate Programs</h3></a>
-                    <p>Awarded through the College of Engineering and Applied ...</p></div>
-                </div>
-                <div class="row">
-                    <div class="column synopsis"><a href="https://www.colorado.edu/atlas/faculty"><h3>Faculty</h3></a>
-                    <p>Lecturer, co-chair Board of Advisors + DESIGN, AR/VR ...</p></div>
-                    <div class="column synopsis"><a href="https://www.colorado.edu/atlas/research-creative"><h3>Research + Creative</h3></a>
-                    <p>Check out ATLAS Research Showcase 2020</p></div>
-                </div>
-            </section>
-
-            <section class="textEntry">
-                <p>https://www.colorado.edu > innovate > atlas-institute</p>
-                <a href="https://www.colorado.edu/innovate/atlas-institute"><h2>ATLAS Institute | Innovation & Entrepreneurship - University of ...</h2></a>
-                <p class="synopsis">Resource that sponsors diverse interdisciplinary academic and research programs, challenging community members to explore, innovate, create and design well ...</p>
-            </section>
-
-            <section class="textEntry">
-                <p>https://www.linkedin.com > school > atlas-cu-boulder</p>
-                <a href="https://www.linkedin.com/school/atlas-cu-boulder/"><h2>ATLAS Institute at CU Boulder Employees, Location, Alumni</h2></a>
-                <p class="synopsis">ATLAS is an interdisciplinary institute for radical creativity and invention where ingenious ideas become reality. • ATLAS Institute at CU Boulder. View all open ...</p>
-            </section>
-
-            <section class="textEntry">
-                <p>https://www.typemoon.fandom.com > wiki > Atlas</p>
-                <a href="https://typemoon.fandom.com/wiki/Atlas"><h2>ATLAS | TYPE-MOON Wiki | Fandom</h2></a>
-                <p class="synopsis">It is an institute focused on the study and development of alchemy, but its members broke off from the mainstream modern practice of alchemy that originated in ...</p>
-                <h5><a href="https://typemoon.fandom.com/wiki/Atlas#External_Relationships">External Relationships</a> • <a href="https://typemoon.fandom.com/wiki/Atlas#Alchemist_of_Atlas">Alchemist of Atlas</a> • <a href="https://typemoon.fandom.com/wiki/Atlas#Activities">Activites</a> • <a href="https://typemoon.fandom.com/wiki/Atlas#Headquarters">Headquarters</a><h5>
-            </section>
-
-            <section class="textEntry">
-                <p>https://www.internationalaffairshouse.org</p>
-                <a href="https://www.internationalaffairshouse.org"><h2>ATLAS Institute for International Affairs: Home</h2></a>
-                <p class="synopsis">Atlas Institute for International Affairs - The Harmony of Opposite Tensions. ... Atlas Institute. The World's Leading Open-Access Think-Tank and Publisher ...</p>
-            </section>
-
-        </div>
-
-        <!-- CHALLENGE 5 -->
-        <div>
-            <h2>Challenge 5: Accessibility Statement</h2>
-            <p>One accessibility issue of my chessboard lies in the fact that it may be too small to see the pieces. Those with visual impairments may have trouble seeing the pieces and differentiating them.</p>
-            <p>Given this, I would most likely use different images rather than unicode characters for the pieces, or I would make the board + symbols larger.</p>
-            <p>Moreover, there may be an accessibility issue with the color picker user input. If someone were to use a screenreader, it would be near impossible to properly fill out all of the form.</p>
-            <p>I would remedy this with JavaScript, since it would allow for a user to better navigate the module.</p>
-        </div>
-
     </body>
 </html>
