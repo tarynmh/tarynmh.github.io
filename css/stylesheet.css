@@ -3,11 +3,15 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(56, 55, 55);
+    /* background-color: rgb(56, 55, 55); */
+    /* background-color: #264653; */
+    background-color: #0081A7;
+    font-family:'Poppins', sans-serif;
   }
   
   .navL {
     float: left;
+
   }
   
 .navL a {
@@ -19,7 +23,8 @@
   }
 
   .navL a:hover {
-    background-color: rgb(108, 114, 104);
+    background-color: #00AFB9;
+    color: #FDCA9B;
   }
 
   #challenge4{
@@ -54,4 +59,44 @@
 
 .typeMoon {
   display: inline;
+}
+
+#about {
+  margin-left: 5px;
+  color: #264653;
+}
+
+#about, h1 {
+  font-family:'Poppins', sans-serif;
+}
+
+#about, h2, h3, h4, h5 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+p {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins', sans-serif;
+}
+
+hr {
+  background-color: #0081A7;
+  height: 1px;
+  width: 40%;
+  margin-left: 0%;
+}
+
+#about a:link {
+  color: #00AFB9;
+}
+
+#about a:visited {
+  color: #f07167;
+}
+
+#about a:hover {
+  color: #FDCA9B;
 }
