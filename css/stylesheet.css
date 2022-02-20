@@ -76,6 +76,7 @@
 
 p {
   font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
 }
 
 h1, h2, h3, h4, h5 {
@@ -89,6 +90,11 @@ hr {
   margin-left: 0%;
 }
 
+#about {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
 #about a:link {
   color: #00AFB9;
 }
@@ -99,4 +105,28 @@ hr {
 
 #about a:hover {
   color: #FDCA9B;
+}
+
+.faveList {
+  font-size: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #00AFB9 !important;
+  border: #00AFB9 !important;
+  border-radius: 25px;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 20px;
+}
+
+.btn-primary:hover {
+  background-color: #0081A7 !important;
+}
+
+.btn-primary:active {
+  background-color: #f07167;
+}
+
+#latestWork {
+  margin-left: 95px;
 }
