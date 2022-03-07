@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Taryn Hovenkamp</title>
   <link rel="icon" type="image/x-icon" href="https://static.wikia.nocookie.net/stardewvalley/images/0/05/Cat.png/revision/latest/top-crop/width/360/height/360?cb=20160322102216">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -9,40 +9,53 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/myscript.js"></script>
 </head>
 
 <body>
 
-  <div>
-    <ul class="navUL">
-        <li class="navL"><a href="#">Home</a></li>
-        <li class="navL"><a href="./assignments/assignment1.html">Assignment 1</a></li>
-        <li class="navL"><a href="./assignments/assignment3.html">Assignment 3 — Encylopedia </a></li>
-        <li class="navL"><a href="./assignments/assignment4.html">Assignment 4 — HTML Challenges</a></li>
-        <li class="navL"><a href="./assignments/assignment5.html">Assignment 5 — HTML Challenges Redux</a></li>
-      </ul>
+  <!-- nav bar referenced from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+
+  <div class="topnav" id="myTopnav">
+    <a href="#" class="active">Home</a>
+    <a href="./assignments/assignment1.html">Assignment 1</a>
+    <a href="./assignments/assignment3.html">Assignment 3 — Encylopedia</a>
+    <a href="./assignments/assignment4.html">Assignment 4 — HTML Challenges</a>
+    <a href="./assignments/assignment5.html">Assignment 5 — HTML Challenges Redux</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
 
+  <div class="container">
+    <div class="row">
+    <div class="col-sm-7 col-md-7 order-md-2 order-5">
+    <section id="about">
+      <h1> Hi! My name is Taryn Hovenkamp.</h1>
+      <hr>
+      <h2> My pronouns are she/her. </h2>
+      <h3> My goal for this course is to improve my skills and create clean, organized, and aesthetically pleasing websites! </h3>
+      <h4>Here are some things that I love:</h4>
+      <ul>
+        <li class="faveList"><i>Cats</i></li>
+        <li class="faveList"><i>Rythm Games</i></li>
+        <li class="faveList"><i>Art</i></li>
+        <li class="faveList"><i>Sleeping</i></li>
+        <li class="faveList"><i>Strawberry-flavored Drinks</i></li>
+        <li class="faveList"><i><a href="https://www.youtube.com/watch?v=nMTb6XAsXP0">This video</a></i></li>
+      </ul>
+    </section>
+    </div>
+    <div class="col-sm-5 col-md-5 order-md-1 o">
+      <img class = "profilePic img-responsive rounded order-sm-1" src="img/profilePic.jpg">
+      <hr class="profileHr">
+    </div>
+  </div>
 
-  <section id="about">
-    <h1> Hi! My name is Taryn Hovenkamp.</h1>
-    <hr>
-    <h2> My pronouns are she/her. </h2>
-    <h3> My goal for this course is to improve my skills and create clean, organized, and aesthetically pleasing websites! </h3>
-    <h4>Here are some things that I love:</h4>
-    <ul>
-      <li class="faveList"><i>Cats</i></li>
-      <li class="faveList"><i>Rythm Games</i></li>
-      <li class="faveList"><i>Art</i></li>
-      <li class="faveList"><i>Sleeping</i></li>
-      <li class="faveList"><i>Strawberry-flavored Drinks</i></li>
-    </ul>
-
-    <p> <a href= ./img/profilePic.jpg>Here</a> is what I look like! (And <a href="https://www.youtube.com/watch?v=nMTb6XAsXP0">here</a> is a video I always come back to.)
-  </section>
-
-    <a class="btn btn-primary latestWork" href="../tarynmh.github.io/assignments/assignment5.html" role="button">Click here for my latest assignment</a>
-  </body>
+      <a class="btn btn-primary latestWork" href="../tarynmh.github.io/assignments/assignment5.html" role="button">Click here for my latest assignment</a>
+    </div>
+    </body>
 
   </html>
