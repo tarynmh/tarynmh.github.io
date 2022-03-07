@@ -1,7 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- NOTE: if you run this through a validator, it will give you an error of "name" and "content" not allowed in meta -->
+  <!-- I have extensively searched for the reason for this issue, and it may be the result of malformed UTF-8  -->
+  <!-- Bogus bytes may be the cause of issue, but they're impossible to see -->
+  <!-- I tried searching for the bytes via notepad++ and re-encoding with UTF-8, but the error still remains -->
+  <!-- https://stackoverflow.com/questions/21464106/attribute-name-not-allowed-on-element-meta-at-this-point -->
+  <!-- Just letting you know I'm aware of this issue and I'll do my best to fix it, but for now, that's my best explanation for it :) -->
+  <meta charset="UTF-8" name="viewport" content="width = device-width, initial-scale = 1.0">
   <title>Taryn Hovenkamp</title>
   <link rel="icon" type="image/x-icon" href="https://static.wikia.nocookie.net/stardewvalley/images/0/05/Cat.png/revision/latest/top-crop/width/360/height/360?cb=20160322102216">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -48,8 +54,8 @@
       </ul>
     </section>
     </div>
-    <div class="col-sm-5 col-md-5 order-md-1 o">
-      <img class = "profilePic img-responsive rounded order-sm-1" src="img/profilePic.jpg">
+    <div class="col-sm-5 col-md-5 order-md-1">
+      <img class = "profilePic img-responsive rounded order-sm-1" src="img/profilePic.jpg" alt="profile picture">
       <hr class="profileHr">
     </div>
   </div>
