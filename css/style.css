@@ -88,6 +88,7 @@
 #about {
   margin-left: 5px;
   color: #264653;
+  margin-top: 40px;
 }
 
 #about, h1 {
@@ -112,11 +113,6 @@ hr {
   height: 1px;
   width: 40%;
   margin-left: 0%;
-}
-
-#about {
-  margin-top: 40px;
-  /* margin-left: 30px; */
 }
 
 #about a:link {
@@ -159,6 +155,12 @@ hr {
   max-width: 100%;
   /* height: 70%; */
   margin-top: 12%;
+}
+
+.profilePicAbout {
+  border-radius: 50%;
+  max-width: 85%;
+  margin-top: 50%;
 }
 .profileHr {
   background-color: #0081A7;
@@ -222,4 +224,129 @@ hr {
   {
     margin-top: 5%;
   }
+}
+
+#footerNav {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  width: 20%;
+}
+
+.center {
+  text-align: center;
+  width: 100%;
+
+}
+
+.fa {
+  color: black;
+}
+
+.fa:hover {
+  color: #00AFB9;
+}
+
+.fa-bars {
+  color: white;
+}
+
+/* about */
+#goals {
+  float: right;
+  text-align: right;
+}
+
+#love h2 {
+  font-weight: 600;
+}
+
+#goals h2 {
+  font-weight:  600;
+}
+
+.experience {
+  margin-left: 5px;
+  color: #264653;
+  margin-top: 40px;
+}
+
+.experience h2 {
+  font-weight: 300;
+}
+
+.experience h5 {
+  font-weight: 200;
+}
+
+#job {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.expHr {
+  background-color: #0081A7;
+  height: 1px;
+  width: 40%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#job h5 {
+  font-size: 1rem;
+}
+
+#skillsList {
+  float: right;
+  font-family: 'Cormorant Garamond', serif;
+  margin-left: 5px;
+  color: #264653;
+  margin-top: 20%;
+  font-size: 1.5rem;
+}
+
+#skillsList h2 {
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+
+.skillsHr {
+  /* background-color: #0081A7;
+  height: 1px;
+  width: 100%;
+  margin-left: 0%;
+  margin-top: 14%; */
+
+  background-color: #0081A7;
+  height: 1px;
+  width: 60%;
+  margin-top: 14%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skillHeading {
+  margin-top: 16%;
+}
+.skillHeading h2 {
+  text-align: center;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 400px) {
+  .skillHeading h2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+}
+
+
+/* projects */
+#projectsHeader {
+  margin-left: 5px;
+  color: #264653;
+  margin-top: 40px;
 }
