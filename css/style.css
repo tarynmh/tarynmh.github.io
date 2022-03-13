@@ -297,6 +297,10 @@ hr {
   font-size: 1rem;
 }
 
+#jobHeader h2 {
+  font-size: 1.5rem;
+}
+
 #skillsList {
   float: right;
   font-family: 'Cormorant Garamond', serif;
