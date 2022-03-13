@@ -293,6 +293,10 @@ hr {
   margin-right: auto;
 }
 
+#job h4 {
+  display: none;
+}
+
 #job h5 {
   font-size: 1rem;
 }
@@ -399,6 +403,7 @@ hr {
 #projectList a:hover {
   color: #FDCA9B;
 }
+
 
 @media screen and (max-width: 400px) {
   .projectHrMobile {
