@@ -302,7 +302,7 @@ hr {
   font-family: 'Cormorant Garamond', serif;
   margin-left: 5px;
   color: #264653;
-  margin-top: 20%;
+  margin-top: 13%;
   font-size: 1.5rem;
 }
 
@@ -322,14 +322,12 @@ hr {
   background-color: #0081A7;
   height: 1px;
   width: 60%;
-  margin-top: 14%;
+  margin-top: 12%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.skillHeading {
-  margin-top: 16%;
-}
+
 .skillHeading h2 {
   text-align: center;
   font-weight: 300;
@@ -349,4 +347,41 @@ hr {
   margin-left: 5px;
   color: #264653;
   margin-top: 40px;
+}
+
+#projectList {
+  color: #264653;
+}
+
+.projectHr {
+  background-color: #0081A7;
+  height: 1px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.projectRow {
+  margin-top: 3%;
+}
+
+.projectRow h2 {
+  text-align: center;
+}
+
+.projectRow h5 {
+  text-align: center;
+}
+
+#projectList a:link {
+  color: #00AFB9;
+}
+
+#projectList a:visited {
+  color: #f07167;
+}
+
+#projectList a:hover {
+  color: #FDCA9B;
 }
