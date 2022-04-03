@@ -20,26 +20,16 @@ function chickenBonk() {
   
 }
 
-function azurillHover1() {
 
+
+var azurillSprite = document.getElementById("azurill");
+azurillSprite.addEventListener("mouseover", azurillHover1, false);
+azurillSprite.addEventListener("mouseout", azurillHover2, false);
+
+function azurillHover1() {
+  azurillSprite.src = "../img/../img/Azurill.gif";
 }
 
 function azurillHover2() {
-  
-}
-
-var azurillSprite = document.getElementById("azurill");
-item.addEventListener("mouseover", azurillHover1, false);
-item.addEventListener("mouseout", azurillHover2, false);
-
-function func()
-{  // not needed since item is already global, 
-   // I am assuming this is here just because it's sample code?
-   // var item = document.getElementById("button"); 
-   item.setAttribute("style", "background-color:blue;")
-}
-
-function func1()
-{  
-   item.setAttribute("style", "background-color:green;")
+  azurillSprite.src = "../img/../img/azurillstatic.png";
 }
