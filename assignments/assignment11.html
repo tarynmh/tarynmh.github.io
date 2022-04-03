@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- NOTE: if you run this through a validator, it will give you an error of "name" and "content" not allowed in meta -->
+  <!-- I have extensively searched for the reason for this issue, and it may be the result of malformed UTF-8  -->
+  <!-- Bogus bytes may be the cause of issue, but they're impossible to see -->
+  <!-- I tried searching for the bytes via notepad++ and re-encoding with UTF-8, but the error still remains -->
+  <!-- https://stackoverflow.com/questions/21464106/attribute-name-not-allowed-on-element-meta-at-this-point -->
+  <!-- Just letting you know I'm aware of this issue and I'll do my best to fix it, but for now, that's my best explanation for it :) -->
+  <meta charset="UTF-8" name="viewport" content="width = device-width, initial-scale = 1.0">
+  <title>Taryn Hovenkamp</title>
+  <link rel="icon" type="image/x-icon" href="https://static.wikia.nocookie.net/stardewvalley/images/0/05/Cat.png/revision/latest/top-crop/width/360/height/360?cb=20160322102216">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+  <!-- nav bar referenced from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+
+  <div class="topnav" id="myTopnav">
+    <a href="#" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href="experience.html">Experience</a>
+    <a href="projects.html">Projects</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+            <audio id = "bonk" src = "../audio/bonk.mp3">Audio required. </audio>
+            <img id = "chicken" src= "https://64.media.tumblr.com/ef0ce75aeed1fb0bfb30865cc278bae6/fa8b21c17ca78806-99/s400x600/fa39e60630d2f410b7b6b06dd9771e2474a8b9e0.gifv" >
+            <h5 id = "chickentxt">Click the chicken for a surprise!!!</h5>
+        </div>
+    </div>
+  </div>
+  <script src="../js/myscript.js"></script>
+    <footer>
+      <hr id="footerNav">
+      <div class="center">
+        <a href="https://github.com/tarynmh"><i style="margin-right: 1%;" class="fa fa-github fa-3x"></i></a><a href="https://www.linkedin.com/in/taryn-hovenkamp/"><i class="fa fa-linkedin-square fa-3x"></i></a>
+      </div> 
+    </footer>
+  </body>
+  </html>

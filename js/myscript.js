@@ -9,3 +9,37 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+document.getElementById("chicken").addEventListener("click", chickenBonk);
+
+function chickenBonk() {
+  var bonkSound = document.getElementById("bonk");
+  bonkSound.play();
+  document.getElementById("chicken").src = "../img/bonkChickenImg6.png"
+  document.getElementById("chickentxt").style.display = "none";
+  
+}
+
+function azurillHover1() {
+
+}
+
+function azurillHover2() {
+  
+}
+
+var azurillSprite = document.getElementById("azurill");
+item.addEventListener("mouseover", azurillHover1, false);
+item.addEventListener("mouseout", azurillHover2, false);
+
+function func()
+{  // not needed since item is already global, 
+   // I am assuming this is here just because it's sample code?
+   // var item = document.getElementById("button"); 
+   item.setAttribute("style", "background-color:blue;")
+}
+
+function func1()
+{  
+   item.setAttribute("style", "background-color:green;")
+}
