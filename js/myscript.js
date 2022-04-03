@@ -15,7 +15,7 @@ document.getElementById("chicken").addEventListener("click", chickenBonk);
 function chickenBonk() {
   var bonkSound = document.getElementById("bonk");
   bonkSound.play();
-  document.getElementById("chicken").src = "../img/bonkChickenImg6.png"
+  document.getElementById("chicken").src = "../img/bonkChickenImg6.png";
   document.getElementById("chickentxt").style.display = "none";
   
 }
