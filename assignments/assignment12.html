@@ -1,13 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <!-- NOTE: if you run this through a validator, it will give you an error of "name" and "content" not allowed in meta -->
-  <!-- I have extensively searched for the reason for this issue, and it may be the result of malformed UTF-8  -->
-  <!-- Bogus bytes may be the cause of issue, but they're impossible to see -->
-  <!-- I tried searching for the bytes via notepad++ and re-encoding with UTF-8, but the error still remains -->
-  <!-- https://stackoverflow.com/questions/21464106/attribute-name-not-allowed-on-element-meta-at-this-point -->
-  <!-- Just letting you know I'm aware of this issue and I'll do my best to fix it, but for now, that's my best explanation for it :) -->
-  <meta charset="UTF-8" name="viewport" content="width = device-width, initial-scale = 1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0">
   <title>Taryn Hovenkamp</title>
   <link rel="icon" type="image/x-icon" href="https://static.wikia.nocookie.net/stardewvalley/images/0/05/Cat.png/revision/latest/top-crop/width/360/height/360?cb=20160322102216">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -34,21 +29,27 @@
   </div>
 
   <div class="container">
-      <div class="row">
-        <div class="col-md-6 chickenContainer">
-            <audio id = "bonk" src = "../audio/bonk.mp3">Audio required. </audio>
-            <img id = "chicken" src= "https://64.media.tumblr.com/ef0ce75aeed1fb0bfb30865cc278bae6/fa8b21c17ca78806-99/s400x600/fa39e60630d2f410b7b6b06dd9771e2474a8b9e0.gifv" alt="Stardew Valley chicken">
-            <h5 id = "chickentxt">Click the chicken for a surprise!!!</h5>
+    <div class="row">
+      <div class="col d-flex justify-content-center dogCard">
+        <div class="card" style="width: 20rem;">
+          <img id="dogPic" class="card-img-top" src="../img/dog.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">What Do We Have Here?</h5>
+            <p id="dogText" class="card-text">Hmm...</p>
+            <a href="#" id="dogButton" class="btn btn-primary">Show me a dog!!!</a>
+          </div>
         </div>
-        <div class="col-md-5">
-          <img id = "azurill" src = "../img/azurillstatic.png" alt="Pokemon Azurill">
-        </div>
-        <div class="col-md-1 azuText">
-          <h5>&#x2190; Make Azurill bounce!</h5>
-        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class=".col-md-6 .offset-md-3 dogExpl">
+        <h5>I wanted to utilize an API that would give you a random image! The JSON object really only holds a randomized dog picture,
+          as well as whether the call was a success or not. Each time you press the button, a new dog image will be displayed!
+        </h5>
+      </div>
     </div>
   </div>
-  <script src="../js/myscript.js"></script>
+  <script src="../js/api.js"></script>
     <footer>
       <hr id="footerNav">
       <div class="center">

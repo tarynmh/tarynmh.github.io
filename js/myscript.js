@@ -20,8 +20,6 @@ function chickenBonk() {
   
 }
 
-
-
 var azurillSprite = document.getElementById("azurill");
 azurillSprite.addEventListener("mouseover", azurillHover1, false);
 azurillSprite.addEventListener("mouseout", azurillHover2, false);
@@ -33,3 +31,4 @@ function azurillHover1() {
 function azurillHover2() {
   azurillSprite.src = "../img/../img/azurillstatic.png";
 }
+

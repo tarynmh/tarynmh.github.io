@@ -419,3 +419,17 @@ hr {
 .azuText {
   margin-top: 30%;
 }
+
+/* assignment 12 */
+.dogCard {
+  margin-top: 70px;
+
+}
+
+#dogButton {
+  margin-left: 50px;
+}
+
+.dogExpl {
+  margin-top: 20px;
+}
