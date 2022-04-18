@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/x-icon" href="https://static.wikia.nocookie.net/stardewvalley/images/0/05/Cat.png/revision/latest/top-crop/width/360/height/360?cb=20160322102216">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Silly story generator</title>
+
+  </head>
+
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="../index.html" class="active">Home</a>
+      <a href="../about.html">About</a>
+      <a href="../experience.html">Experience</a>
+      <a href="../projects.html">Projects</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class="container">
+      <div>
+        <label for="customname">Enter custom name:</label>
+        <input id="customname" type="text" placeholder="">
+      </div>
+      <div>
+        <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
+        <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
+      </div>
+      <div>
+        <button class="randomize">Generate random story</button>
+      </div>
+      <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+      <p class="story"></p>
+  </div>
+
+
+    <script src="../js/assignment13.js"></script>
+  </body>
+</html>
