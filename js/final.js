@@ -17,6 +17,15 @@ var userName = document.getElementById("userInput"); // gets name from user
 // * used to generate a random number between a range you specify (exclusive)
 const random = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
+// get music
+function play()
+{
+    var music = document.getElementById("pokeMusic");
+    music.volume = 0.3;
+    music.play();
+}
+
+
 // gets the user's name and pokemon
 function getPokemon()
 {
@@ -25,13 +34,13 @@ function getPokemon()
 
     if(document.getElementById("nameGreeting").value == null){
         document.getElementById("nameGreeting").innerText = "Hello!";
-        
+
     }
     else
     {
         document.getElementById("nameGreeting").innerText = "Hello, " + userName.value + "!";
     }
-
+    play();
     fetchPokemon(); // get a pokemon
 }
 

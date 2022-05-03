@@ -492,4 +492,8 @@ hr {
     margin-right: 10px;
   }
 
+  #pokeMusic {
+    display: none;
+  }
+
 }
