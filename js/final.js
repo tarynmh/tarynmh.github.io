@@ -32,7 +32,7 @@ function getPokemon()
     
     var chosenPkmnText = document.getElementById("assignedPkmn");
 
-    if(document.getElementById("nameGreeting").value == null){
+    if(userName.value == ""){
         document.getElementById("nameGreeting").innerText = "Hello!";
 
     }
