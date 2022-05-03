@@ -449,4 +449,27 @@ hr {
 
 .pokeCol2 {
   text-align: center;
+  margin-left: 50%;
+  margin-top: 20px;
+}
+
+.pokeContainer {
+  margin-left: 20%;
+}
+
+@media screen and (max-width: 400px) {
+  .pokeCol2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .pokeContainer {
+    margin-left: 0%;
+  }
+
+  #pokeImg {
+    max-width: 250px;
+    margin-right: 10px;
+  }
+
 }
