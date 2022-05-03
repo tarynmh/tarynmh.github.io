@@ -23,7 +23,14 @@ function getPokemon()
     
     var chosenPkmnText = document.getElementById("assignedPkmn");
 
-    document.getElementById("nameGreeting").innerText = "Hello, " + userName.value + "!";
+    if(document.getElementById("nameGreeting").value == null){
+        document.getElementById("nameGreeting").innerText = "Hello!";
+        
+    }
+    else
+    {
+        document.getElementById("nameGreeting").innerText = "Hello, " + userName.value + "!";
+    }
 
     fetchPokemon(); // get a pokemon
 }
