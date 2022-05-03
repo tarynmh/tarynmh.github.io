@@ -169,7 +169,10 @@ hr {
   margin-left: 0%;
 }
 
-
+.buttonColumn {
+  margin-left: 20%;
+  margin-top: 20px;
+}
 
 /* QUICK NOTE: A large portion of my responsive design for this site is using Bootstrap's grid system, so please check the HTML for more information
    - it will contain my containers, rows, columns, etc. */
@@ -223,6 +226,14 @@ hr {
   #about
   {
     margin-top: 5%;
+  }
+
+  #footerCont {
+    padding-bottom: 25px;
+  }
+  .buttonColumn {
+    margin-left: 1%;
+    margin-top: 10px;
   }
 }
 

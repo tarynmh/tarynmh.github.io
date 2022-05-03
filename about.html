@@ -16,6 +16,7 @@
 <body>
     <!-- nav bar referenced from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
   <div class="topnav" id="myTopnav">
+    <a href="#" class="navbar-left d-sm-none d-md-none d-lg-none"><img class="d-md-none d-lg-none d-sm-none" src="./img/logo.png" width="140px"></a>
     <a href="index.html">Home</a>
     <a href="#" class="active">About</a>
     <a href="experience.html">Experience</a>
@@ -54,7 +55,8 @@
         </section>
         </div>
         <div class="col-sm-5 col-md-5 order-md-1">
-            <img class = "profilePicAbout img-responsive rounded-circle order-sm-1" src="img/profilePicCropped.jpg" alt="profile picture">
+          <img class = "profilePic img-responsive rounded order-sm-1" src="img/profilePic.jpg" alt="profile picture">
+          <hr class="profileHr">
         </div>
     </div>
     </div>
@@ -62,10 +64,12 @@
 
 
 <footer>
+  <div id="footerCont">
     <hr id="footerNav">
     <div class="center">
       <a href="https://github.com/tarynmh"><i style="margin-right: 1%;" class="fa fa-github fa-3x"></i></a><a href="https://www.linkedin.com/in/taryn-hovenkamp/"><i class="fa fa-linkedin-square fa-3x"></i></a>
     </div> 
+  </div>
   </footer>
 </body>
   </html>
