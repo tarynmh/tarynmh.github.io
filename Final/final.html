@@ -19,7 +19,7 @@
   <!-- nav bar referenced from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
 
   <div class="topnav" id="myTopnav">
-    <a href="#" class="navbar-left d-sm-none d-md-none d-lg-none"><img class="d-md-none d-lg-none d-sm-none" src="../img/logo.png" width="120px"></a>
+    <a href="#" class="navbar-left d-sm-none d-md-none d-lg-none"><img class="d-md-none d-lg-none d-sm-none" src="../img/logo.png" width="120" alt="logo"></a>
     <a href="../index.html">Home</a>
     <a href="../about.html">About</a>
     <a href="../experience.html">Experience</a>
@@ -30,7 +30,7 @@
     </a>
   </div>
 
-  <div class="container pokeContainer">
+  <div class="container pokeContainer align-items-center">
       <div class="row text-center" style="margin-top: 30px;">
         <div class="col-12">
           <audio id="pokeMusic">
@@ -46,10 +46,11 @@
         </div>
       </div>
       <div class="row text-center">
-        <div class="col-md-12 PokeCol2">
+        <div class="col-md-12 PokeCol2 ">
+          <!-- NOTE: I need the headings to be empty in order to populate them with info about the Pokemon once the button is clicked. -->
           <h3 id="nameGreeting"></h3>
           <h4 id="assignedPkmn"></h4>
-          <img id="pokeImg" src="">
+          <img id="pokeImg" src="../img/pixelPlaceholder.png" alt="Pokemon artwork">
           <h4 id="pokeType"></h4>
         </div>
       </div>
